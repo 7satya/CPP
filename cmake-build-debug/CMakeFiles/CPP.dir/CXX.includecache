@@ -6,17 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/Users/satya/CLionProjects/CPP/AbstractType.cpp
-AbstractType.h
-/Users/satya/CLionProjects/CPP/AbstractType.h
-
 /Users/satya/CLionProjects/CPP/AbstractType.h
 string
 -
+
+/Users/satya/CLionProjects/CPP/ObjectClass.h
 
 /Users/satya/CLionProjects/CPP/main.cpp
 iostream
 -
 AbstractType.h
 /Users/satya/CLionProjects/CPP/AbstractType.h
+ObjectClass.h
+/Users/satya/CLionProjects/CPP/ObjectClass.h
 

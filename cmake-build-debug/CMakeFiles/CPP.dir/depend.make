@@ -4,6 +4,10 @@
 CMakeFiles/CPP.dir/AbstractType.cpp.o: ../AbstractType.cpp
 CMakeFiles/CPP.dir/AbstractType.cpp.o: ../AbstractType.h
 
+CMakeFiles/CPP.dir/ObjectClass.cpp.o: ../ObjectClass.cpp
+CMakeFiles/CPP.dir/ObjectClass.cpp.o: ../ObjectClass.h
+
 CMakeFiles/CPP.dir/main.cpp.o: ../AbstractType.h
+CMakeFiles/CPP.dir/main.cpp.o: ../ObjectClass.h
 CMakeFiles/CPP.dir/main.cpp.o: ../main.cpp
 

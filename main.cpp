@@ -17,8 +17,10 @@ int main() {
     obj.setMessage("Hello satya!");
 
     ObjectClass newObj_;
-    newObj_.setVarx();
-    newObj_.setVary();
+    newObj_.setVarx(5);
+    newObj_.setVary(8);
+
+    std::cout << newObj_.addFunction(newObj_.getVarx(), newObj_.getVary()) << std::endl;
 
     return 0;
 }
