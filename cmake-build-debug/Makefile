@@ -169,6 +169,33 @@ AbstractType.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CPP.dir/build.make CMakeFiles/CPP.dir/AbstractType.cpp.s
 .PHONY : AbstractType.cpp.s
 
+ObjectClass.o: ObjectClass.cpp.o
+
+.PHONY : ObjectClass.o
+
+# target to build an object file
+ObjectClass.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CPP.dir/build.make CMakeFiles/CPP.dir/ObjectClass.cpp.o
+.PHONY : ObjectClass.cpp.o
+
+ObjectClass.i: ObjectClass.cpp.i
+
+.PHONY : ObjectClass.i
+
+# target to preprocess a source file
+ObjectClass.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CPP.dir/build.make CMakeFiles/CPP.dir/ObjectClass.cpp.i
+.PHONY : ObjectClass.cpp.i
+
+ObjectClass.s: ObjectClass.cpp.s
+
+.PHONY : ObjectClass.s
+
+# target to generate assembly for a file
+ObjectClass.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CPP.dir/build.make CMakeFiles/CPP.dir/ObjectClass.cpp.s
+.PHONY : ObjectClass.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -208,6 +235,9 @@ help:
 	@echo "... AbstractType.o"
 	@echo "... AbstractType.i"
 	@echo "... AbstractType.s"
+	@echo "... ObjectClass.o"
+	@echo "... ObjectClass.i"
+	@echo "... ObjectClass.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

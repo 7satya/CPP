@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/CPP.dir/AbstractType.cpp.o"
+  "CMakeFiles/CPP.dir/ObjectClass.cpp.o"
   "CMakeFiles/CPP.dir/main.cpp.o"
   "CPP"
   "CPP.pdb"

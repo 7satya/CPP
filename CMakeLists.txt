@@ -3,4 +3,4 @@ project(CPP)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(CPP main.cpp AbstractType.cpp AbstractType.h)
+add_executable(CPP main.cpp AbstractType.cpp AbstractType.h ObjectClass.cpp ObjectClass.h)
